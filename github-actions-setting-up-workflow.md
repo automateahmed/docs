@@ -64,11 +64,8 @@ This started [working immediately by failing the build](https://github.com/autom
 
 After formatting `dotnet format` [this build passed](https://github.com/automateahmed/website/actions/runs/6518206599/job/17703396240), and I now have a repository that builds, checks format and tests on each push to `main`
 
-```md
-
 ~~I want to build and test the application on each push~~
 I want to know the state of the latest push
-```
 
 ## Adding a status badge
 
@@ -99,3 +96,6 @@ And no change happened to the badge, so it was working correctly to only fetch b
 With a [passing build](https://github.com/automateahmed/website/actions/runs/6523754827/job/17714706054) the badge returned to passing,
 
 ![passing](./badge-passing.png)
+
+~~I want to build and test the application on each push~~
+~~I want to know the state of the latest push~~
